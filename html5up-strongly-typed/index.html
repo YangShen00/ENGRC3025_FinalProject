@@ -17,46 +17,34 @@
 	<div id="page-wrapper">
 
 		<!-- Header -->
-		<section id="header">
-			<div class="container">
+		<!-- <section id="header"> -->
+		<div class="containerheader">
 
-				<!-- Logo -->
-				<h1 id="logo"><a href="index.html">Yang Shen</a></h1>
-				<p>Hi my name is Yang Shen. I am a senior at Cornell University majoring in Computer Science minoring in
-					Business. My career goal is to become a skilled software engineer.</p>
+			<!-- Logo -->
 
-				<!-- Nav -->
-				<nav id="nav">
-					<ul>
-						<li><a class="icon solid fa-home" href="index.html"><span>Introduction</span></a></li>
-						<li><a class="icon solid fa-home" href="index.html"><span>Internship Experience</span></a></li>
-						<li><a class="icon solid fa-home" href="index.html"><span>Project Experience</span></a></li>
-						<li><a class="icon solid fa-home" href="index.html"><span>Contact Me</span></a></li>
-						<!-- <li>
-							<a href="#" class="icon fa-chart-bar"><span>Dropdown</span></a>
-							<ul>
-								<li><a href="#">Lorem ipsum dolor</a></li>
-								<li><a href="#">Magna phasellus</a></li>
-								<li><a href="#">Etiam dolore nisl</a></li>
-								<li>
-									<a href="#">Phasellus consequat</a>
-									<ul>
-										<li><a href="#">Magna phasellus</a></li>
-										<li><a href="#">Etiam dolore nisl</a></li>
-										<li><a href="#">Phasellus consequat</a></li>
-									</ul>
-								</li>
-								<li><a href="#">Veroeros feugiat</a></li>
-							</ul>
-						</li>
-						<li><a class="icon solid fa-cog" href="left-sidebar.html"><span>Left Sidebar</span></a></li>
-						<li><a class="icon solid fa-retweet" href="right-sidebar.html"><span>Right Sidebar</span></a></li>
-						<li><a class="icon solid fa-sitemap" href="no-sidebar.html"><span>No Sidebar</span></a></li> -->
-					</ul>
-				</nav>
+			<img src="img.jpg" width="300" length="300" style="padding-left: 5em">
+			<h1 id="logo"><a href="index.html">Yang Shen</a></h1>
 
-			</div>
-		</section>
+			<p>Hi my name is Yang Shen. I am a senior at Cornell University majoring in Computer Science
+				minoring in
+				Business. My career goal is to become a skilled software engineer.
+
+			</p>
+
+			<!-- <img src="img.jpg" style="float: right;"> -->
+
+			<!-- Nav -->
+			<nav id="nav" position="fixed" top="0">
+				<ul>
+					<li><a class="icon solid fa-home" href="#header"><span>Introduction</span></a></li>
+					<li><a class="icon solid fa-home" href="#features"><span>Internship Experience</span></a></li>
+					<li><a class="icon solid fa-home" href="#banner"><span>Project Experience</span></a></li>
+					<li><a class="icon solid fa-home" href="#footer"><span>Contact Me</span></a></li>
+				</ul>
+			</nav>
+
+		</div>
+		<!-- </section> -->
 
 		<!-- Features -->
 		<section id="features">
@@ -69,11 +57,11 @@
 
 						<!-- Feature -->
 						<section>
-							<a href="#" class="image featured"><img src="images/pic01.jpg" alt="" /></a>
+							<a href="#" class="image featured"><img src="sogou.jpg" height="180" alt="" /></a>
 							<header>
 								<h3>Sogou Inc</h3>
 							</header>
-							<p> Interned as a frontend developer in Beijing, China from July 2020 to October 2020
+							<p> frontend developer intern 2020.7 - 2020.10
 							</p>
 							<ul>
 								<li>
@@ -101,11 +89,11 @@
 
 						<!-- Feature -->
 						<section>
-							<a href="#" class="image featured"><img src="images/pic02.jpg" alt="" /></a>
+							<a href="#" class="image featured"><img src="renaissance.jpg" height="180" alt="" /></a>
 							<header>
 								<h3>Renaissance Era</h3>
 							</header>
-							<p> Interned as a software and data engineer in Beijing, China from Janurary 2021 to April 2021</p>
+							<p> software engineer Intern 2021.1 - 2021.4</p>
 							<ul>
 								<li>
 									Designed and built a funds management platform with Casbin authentication using node.js as the
@@ -129,12 +117,11 @@
 
 						<!-- Feature -->
 						<section>
-							<a href="#" class="image featured"><img src="images/pic03.jpg" alt="" /></a>
+							<a href="#" class="image featured"><img src="cargurus.jpg" height="180" alt="" /></a>
 							<header>
 								<h3>CarGurus</h3>
 							</header>
-							<p>Interned as a algorithmic traffic acquisition engineer in Cambridge, Massachusates from August 2021 to
-								Janurary 2022</p>
+							<p> Algorithms Engineer Intern 2021.8 - 2022.1</p>
 							<ul>
 								<li>
 									Reorganized the structure of all budget-related classes and divide the classes into eight facet
@@ -183,7 +170,7 @@
 							<header>
 								<h2>CUAir Project Team</h2>
 							</header>
-							<a href="#" class="image featured"><img src="images/pic04.jpg" alt="" /></a>
+							<a href="#" class="image featured"><img src="cuair.jpg" alt="" /></a>
 							<h3>Cornell University
 								Unmanned Air Systems</h3>
 							<p>CUAir is an interdisciplinary student team that designs, builds and tests a custom search and rescue
@@ -197,7 +184,7 @@
 								and view system results. Our daily focus is to optimize system performance, and experiment with new
 								algorithms to better our accuracy and efficiency.</p>
 							<ul class="actions">
-								<li><a href="#" class="button icon solid fa-file">Continue Reading</a></li>
+								<li><a href="https://cuair.org/index.html" class="button icon solid fa-file">More Info</a></li>
 							</ul>
 						</article>
 
@@ -206,13 +193,14 @@
 							<header>
 								<h2>Memory Card Game</h2>
 							</header>
-							<a href="#" class="image featured"><img src="images/pic05.jpg" alt="" /></a>
+							<a href="#" class="image featured"><img src="memory.jpg" height="200" alt="" /></a>
 							<!-- <h3>You should probably check out her work</h3> -->
 							<p>The memory card game is a game online where you only have limited time to see all the cards. After
 								seeing the cards, they will be turned upside down and your goal is to find all the matching cards.
 								The game is won when all the cards are found from the pool.</p>
 							<ul class="actions">
-								<li><a href="#" class="button icon solid fa-file">Continue Reading</a></li>
+								<li><a href="https://github.com/linda-huang/memory-game" class="button icon solid fa-file">Github
+										Link</a></li>
 							</ul>
 						</article>
 
@@ -276,7 +264,7 @@
 										<header>
 											<h3><a href="#">What I did at CUAir</a></h3>
 										</header>
-										<a href="#" class="image left"><img src="images/pic06.jpg" alt="" /></a>
+										<a href="#" class="image left"><img src="cuair_plane.jpg" alt="" /></a>
 										<!-- <p>Phasellus sed laoreet massa id justo mattis pharetra. Fusce suscipit ligula vel quam
 											viverra sit amet mollis tortor congue magna lorem ipsum dolor et quisque ut odio facilisis
 											convallis. Etiam non nunc vel est suscipit convallis non id orci. Ut interdum tempus
@@ -379,40 +367,38 @@
 					</div>
 					<div class="col-6 col-12-medium">
 						<section>
-							<p>Please don't hesitate to contact me if you have any questions or comment.</p>
-							<div class="row">
+							<!-- <p>Please don't hesitate to contact me</p> -->
+							<!-- <div class="row">
+								<div class="col-6 col-12-small"> -->
+							<ul class="icons">
+								<li class="icon solid fa-home">
+									120 Valentine Pl,
+									Ithaca, NY 14853,
+									USA
+								</li>
+								<li class="icon solid fa-phone">
+									(585) 404-6998
+								</li>
+
+								<!-- </ul> -->
+								<!-- </div>
 								<div class="col-6 col-12-small">
-									<ul class="icons">
-										<li class="icon solid fa-home">
-											120 Valentine Pl<br />
-											Ithaca, NY 14853<br />
-											USA
-										</li>
-										<li class="icon solid fa-phone">
-											(585) 404-6998
-										</li>
-										<li class="icon solid fa-envelope">
-											<a href="#">ys656@cornell.edu</a>
-										</li>
-									</ul>
-								</div>
-								<div class="col-6 col-12-small">
-									<ul class="icons">
-										<li class="icon brands fa-twitter">
-											<a href="#">@untitled</a>
-										</li>
-										<li class="icon brands fa-instagram">
-											<a href="#">instagram.com/untitled</a>
-										</li>
-										<!-- <li class="icon brands fa-dribbble">
-											<a href="#">dribbble.com/untitled</a>
-										</li> -->
-										<li class="icon brands fa-facebook-f">
-											<a href="#">facebook.com/untitled</a>
-										</li>
-									</ul>
-								</div>
-							</div>
+									<ul class="icons"> -->
+								<!-- <li class="icon brands fa-twitter">
+											<a href="#">@untitled</a> -->
+								<!-- </li> -->
+								<li class="icon solid fa-envelope">
+									<a href="#">ys656@cornell.edu</a>
+								</li>
+								<li class="icon brands fa-instagram">
+									<a href="https://www.instagram.com/yangs_sy/">https://www.instagram.com/yangs_sy</a>
+								</li>
+								<!-- <li class="icon brands fa-facebook-f">
+											<a href="#">facebook.com/untitled</a> -->
+								<!-- </li> -->
+							</ul>
+							<!-- </div>
+							</div> -->
 						</section>
 					</div>
 				</div>
